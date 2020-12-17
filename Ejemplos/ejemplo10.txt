@@ -15,7 +15,7 @@
 11.     Si fila == columna entonces
 12.       suma <-- suma + notasEstudiantes[fila][columna] 
 13.     Fin Si
-14.   Fin_Para 
+14.   Fin_Para
 15. Fin_Para 
 16. Fin
 
