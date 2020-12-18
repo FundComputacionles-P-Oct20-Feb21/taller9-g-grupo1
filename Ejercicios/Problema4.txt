@@ -1,0 +1,34 @@
+Problema4
+//Se requiere ingresar las ventas totales diaras de 2 vendedores; 
+realizadas de lunes a viernes. 
+//Los vendedores están representados en una estructura unidimensional de dos elementos.
+// El arreglo se llama vendedores
+
+//El arreglo bimensional que permitirá almacenar las ventas diarias tiene 2 filas y 5 columnas.
+// El arreglo se llama ventas
+//
+//Existe una relación entre el índice 0 del arreglo vendedores 
+//y la fila de índice 0 del arreglo ventas.
+
+1.Inicio
+2. (vendedores(2),x(200)[{1-10},{A-Z},{a-z},{BS}])
+3. vendedores[0]<-- Jessica Cole
+4.  vendedores[1]<-- Robert Wallace
+5. (ventas(2)(5), d [0-n])
+6. suma, d [0-n]
+7. nombres(x)(200)[{1-10},{A-Z},{a-z},{BS}] <--- ""
+
+8.Para (fila <-- 0 ,  fila < 2, 1) haga
+
+9.     Para(columna <--0 , columna < 5, 1) haga 
+10.     Escribir "Ingrese la venta del dia" 
+11.    Leer ventas[fila][columna] 
+12.       suma= suma + ventas[fila][columna]
+13.       nombres = nombres + vendedores[fila]
+
+14.    Fin_para
+15.   Fin_para
+
+
+16. Escribir "Vendedor" + fila + nombres "Han realizado un total de" +suma + " en ventas."
+17. Fin
